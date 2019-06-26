@@ -1,0 +1,47 @@
+.container {
+  width: 600px;
+  margin: auto;
+  font-family: "Open Sans";
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 50px 0;
+}
+
+.letter {
+  padding: 1em;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+
+.key {
+  width: 6.3593%;
+  padding: 1em 0 1em 0;
+  text-align: center;
+  border: 1px grey solid;
+  border-radius: 4px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.key.used {
+  background-color: rgb(231, 193, 193);
+  cursor: not-allowed;
+}
+
+.win, .badKey {
+  text-align: center;
+}
+.badKey {
+  font-size: small;
+}
+
+.newGame {
+  float: right;
+}
